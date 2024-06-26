@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+\\input list arr={23,56,67,78}
+int arr[i]={23,56,67,78}
+int x=67;
+for(int i=0;i<n)
+if (arr[i]==x)
+return i;
+else 
+return -1
+
+Pseudocode for Binary Search:
+BinarySearch(arr, n, x):
+  // arr: sorted array to be searched
+ // n: size of array arr
+ // x: element to be searched
+     left = 0
+     right = n - 1
+    while left <= right do:
+     mid = left + (right - left) / 2
+    // Check if x is present at mid
+        if arr[mid] == x then:
+     return mid  // Element found at mid index
+    // If x is greater, ignore left half
+        
+
+if arr[mid] < x then:
+  left = mid + 1
+// If x is smaller, ignore right half
+ else:
+   right = mid - 1
+ return -1  // Element not found
